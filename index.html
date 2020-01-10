@@ -1,180 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Christophs Website</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body class="container p5">
-  <header>
-    <h1>
-      <h3><strong>Christoph Tappé</strong></h3> 
-    </h1>
-    
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">Skills</a>
-      <a class="navbar-brand" href="#">Was bisher geschah</a>
-      <a class="navbar-brand" href="#">Persönliches</a>
-      <a class="navbar-brand" href="#">Kontakt</a>
-    </nav>
+  <body class="container p5">
+    <header>
+      <h1 id="top">
+        <h3><strong>Christoph Tappé</strong></h3>
+      </h1>
 
-
-   
-
+      <nav class="navbar navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#skills">Skills</a>
+        <a class="navbar-brand" href="#werdegang">Werdegang</a>
+        <a class="navbar-brand" href="#me">Über mich</a>
+        <a class="navbar-brand" href="#contact">Kontakt</a>
+      </nav>
     </header>
-    
+
     <main>
       <section>
-       
         <div class="card mb-3 bg-warning">
-          <img src="tappe.jpg" class="card-img-top" alt="">
+          <img src="tappe.jpg" class="card-img-top" alt="" />
           <div class="card-body">
-            <h4 class="card-title"><strong>Ich bin Fotograf und Web-Developer.</strong></h4>
-            <p class="card-text">Mein Name ist Christoph Tappé und ich bin ein kommunikativer Allrounder der es liebt, sich
-              neuen Herausforderungen zu stellen und mit einer Hands-on-Mentalität 
-              lösungsorientiert zu arbeiten.</p>
-            <p class="card-text"><small class="text-muted">Erfahren Sie auf dieser Seite mehr über mich.</small></p>
+            <h4 class="card-title">
+              <strong>Ich bin Fotograf und Web-Developer.</strong>
+            </h4>
+            <p class="card-text">
+              Mein Name ist Christoph Tappé und ich bin ein kommunikativer
+              Allrounder der es liebt, sich neuen Herausforderungen zu stellen
+              und mit einer Hands-on-Mentalität lösungsorientiert zu arbeiten.
+            </p>
+            <p class="card-text">
+              <small class="text-muted"
+                >Erfahren Sie auf dieser Seite mehr über mich.</small
+              >
+            </p>
           </div>
         </div>
-
-<!-- 
-        <div class="card mb-3" style="width: 18rem;">
-          <img src="tappe.jpg" class="card-img-top" alt="der neueste Web-Developer in town">
-          <div class="card-body">
-            <p class="card-text">Ich bin ein kommunikativer Allrounder der es liebt, sich
-              neuen Herausforderungen zu stellen und mit einer Hands-on-Mentalität 
-              lösungsorientiert zu arbeiten.</p>
-          </div>
-        </div> -->
-
-        <!-- <img src="tappe.jpg" width="320" alt="">
-
-        
-        <p><b>Fotograf und Web-Developer</b><br>
-          Ich bin ein kommunikativer Allrounder der es liebt, sich
-          neuen Herausforderungen zu stellen und mit einer Hands-on-Mentalität 
-          lösungsorientiert zu arbeiten.
-        </p> -->
       </section>
 
-      <section>
-        <h4>Professional skills</h4>
-        <div class="row text-light text-center"> 
-        <div class="col">
-          <span class="badge badge-warning">Oxmox</span>
-      </div>
-          <div class="col">
-            <span class="badge badge-warning">Photoshop</span>
-        </div>
-        </div>
-        <div class="row text-light text-center"> 
-          <div class="col">
-            <span class="badge badge-warning">Warning</span>
-        </div>
-            <div class="col">
-              <span class="badge badge-warning">Warning</span>
-          </div>
-          </div>
+        <article>
 
-      </section>
-
-      <section>
-        <h4>
-          Social skills
-        </h4>
-        <div class="row"> 
-          <div class="col">
-          <section>Skill 1</section>
-          <span class="badge badge-warning">Warning</span>
-        </div>
-            <div class="col">
-            <section>Skill 2</section>
-          </div>
-          </div>
-          <div class="row"> 
-            <div class="col">
-            <section>Skill 3</section>
-          </div>
-              <div class="col">
-              <section>Skill 4</section>
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link bg-warning text-secondary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Warum ich Fotograf bin:
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Ich mag Menschen und ich liebe Gesichter. Dabei empfinde ich es
+            immer wieder als tolle Herausforderung, diese zu entdecken. Und es
+            macht mir viel Spaß, den Menschen vor der Kamera so viel Sicherheit
+            zu vermitteln, dass sie ihr wahres ich zeigen können.
+                </div>
+              </div>
             </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed bg-warning text-secondary" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Warum ich Web-Developer werde:
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Für mich ist es immer wieder spannend, neue Dinge kennen zu lernen und deshalb freue ich mich darauf, aktiv in der Zukunft-Branche mitzuarbeiten. Im Team an innovativen Web-Lösungen mitzuarbeiten empfinde ich als großartig. 
+                </div>
+              </div>
             </div>
-      </section>
-    
-      <!-- <section>
-        <div class="container bg-dark rounded-sm text-light p-3">
-        <h5>Kontakt:</h5>
-        <div>
-        <div class="row pl-2">Mobil unter <a href="tel:+491791079578"> +49 179 1079578</a></div>
-        
-        <div class="row pl-2">Mail</div>
-      </div>
-    </div>
-      </section>     -->
 
-      <section>
-        <div class="alert alert-warning text-dark" role="alert">
+
+          </div>
+
+        </article>
+
+ 
+
+      <article id="skills" class="bg-light p-3 mt-3">
+        <h4 class="h3">Skills</h4>
+
+        <div class=" text-light text-center">
+          <span class="badge badge-warning">WordPress</span>
+
+          <span class="badge badge-warning">MS-Office</span>
+
+          <span class="badge badge-warning">Photoshop</span>
+
+          <span class="badge badge-warning">Lightroom</span>
+
+          <span class="badge badge-warning">Premiere</span>
+
+          <span class="badge badge-warning">InDesign</span>
+        </div>
+      </article>
+
+      <section id="contact">
+        <div class="alert alert-warning text-dark mt-5 mb-5" role="alert">
           <h4 class="alert-heading">Kontakt</h4>
-          <p class="mb-0 text-dark">Sie haben Fragen oder möchten mich persönlich kennen lernen?</p>
-          <hr>
-          <p>Rufen Sie mich gerne an <a href="tel:+491791079578"> +49 179 1079578</a></p>
-          <p>Oder schreiben Sie mir eine <a href= "mailto:info@christophtappe.de">Mail.</a>
-        </div></p>
+          <p class="mb-0 text-dark">
+            Sie haben Fragen oder möchten mich persönlich kennen lernen?
+          </p>
+          <hr />
+          <p>
+            Rufen Sie mich gerne an
+            <a href="tel:+491791079578"> +49 179 1079578</a>
+          </p>
+          <p>
+            Oder schreiben Sie mir eine
+            <a href="mailto:info@christophtappe.de">Mail.</a>
+          </p>
+        </div>
       </section>
-      
-      </div>
 
-      <!-- <section>
-        <h5>Werdegang</h5>
-        <section>
-          <div>
-          <h4><span class="badge badge-secondary">seit 2011</span><strong> Freier People-Fotograf</strong> </h4>
-          <p>Schwerpunkt: Business- und Karriereportraits.</p>
-          </div>
-        </section>
-      </section> -->
 
-    <section>
-      <dl class="row bg-warning">
-   
-        <dt class="col-sm-3">seit 2011</dt>
-        <dd class="col-sm-9"><strong>Freier People-Fotograf </strong>
-          <p>Schwerpunkt: Business- und Karriereportraits</p></dd>
-        </dd>
 
-        <dt class="col-sm-3">2009-2011</dt>
-        <dd class="col-sm-9">
-          <p><strong>GREY Werbeagentur</strong><br>
-          Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
-          <p>Donec id elit non mi porta gravida at eget metus.</p>
-        </dd>
-      
-        <dt class="col-sm-3">seit 2011</dt>
-        <dd class="col-sm-9"><strong>Freier People-Fotograf </strong>
-          <p>Schwerpunkt: Business- und Karriereportraits</p></dd>
-        </dd>
-      </dl>
-    </section>
 
+      <section class="bg-warning mb-3" id="werdegang">
+        <h3 class="pl-3 pt-3">Werdegang</h3>
+
+        <dl class="row bg-warning m-0">
+          <dt class="col-sm-3">seit 2011</dt>
+          <dd class="col-sm-9">
+            <strong>Freier People-Fotograf </strong>
+            <p>Schwerpunkt: Business- und Karriereportraits</p>
+          </dd>
+
+          <dt class="col-sm-3">2005-2011</dt>
+          <dd class="col-sm-9">
+            <p>
+              <strong>GREY Werbeagentur</strong><br />
+              Kundenberater
+            </p>
+          </dd>
+
+          <dt class="col-sm-3">1995-2004</dt>
+          <dd class="col-sm-9">
+            <p>
+              <strong>KM WOLFF Wergeagentur, Hamburg</strong><br />
+              Kundenberater und Mitglied der Geschäftsleitung
+              <dt class="col-sm-3">1991-1995</dt>
+              <dd class="col-sm-9">
+                <p>
+                  <strong>AXEL SPRINGER AG, Hamburg</strong><br />
+                  Anzeigenverkauf BILD-Gruppe
+                  <dt class="col-sm-3">1989-1990</dt>
+                  <dd class="col-sm-9">
+                    <p>
+                      <strong>AUSLAND</strong><br />
+                      Barkeeper, Travel-Agent in Australia
+                      <dt class="col-sm-3">1985-1988</dt>
+                      <dd class="col-sm-9">
+                        <p>
+                          <strong>AXEL SPRINGER AG, Berlin/Hamburg</strong
+                          ><br />
+                          Ausbildung zum Verlagskaufmann
+                        </p>
+                      </dd>
+                    </p>
+                  </dd>
+                </p>
+              </dd>
+            </p>
+          </dd>
+        </dl>
+      </section>
+
+
+
+      </section>
     </main>
 
-      <section>
-        <h4>Persönliches</h4>
-        <p>Kurztext mit Einleitung.</p>
-        <ul>
-          <li>Thema 1</li>
-          <li>theme 2</li>
-          <li>thema 3</li>
-          <li>thema 4</li>
-        </ul>
-      </section>
-        
-    
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+    <article class="mb-3">
+
+      <div class="card">
+        <img src="..." class="card-img-top" alt="">
+        <div class="card-body">
+          <h5>100 Faces – mein freies Foto-Projekt in Thailand</h5>
+          <p class="card-text">Faszinierende Gesichter, die Geschichten erzählen. Lassen Sie sich von beeindruckenden Schwarz-Weiß-Portraits verzaubern, die in berührenden 5-Minuten-Begegnungen entstanden.</p>
+          <a href="http://christophtappe.de/moving-thailand-100-faces/" class="btn btn-secondary">Jetzt anschauen!</a>
+        </div>
+      </div>
+
+    </article>
+
+    <section>
+      <div
+        id="me"
+        class="alert alert-success bg-dark text-white"
+        role="alert"
+      >
+        <h4 class="alert-heading">Über mich</h4>
+        <p>
+          Ich mag Musik und habe deshalb vor einigen Jahren angefangen, das
+          Gitarrespielen zu erlernen. Die daraus entstandene Begeisterung
+        </p>
+      </div>
+    </section>
+
+    <footer class="mb-1">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="#top">Top</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http:\\christophtappe.de"
+            >christophtappe.de</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+      <p class="small">&copy; Tappé 2020</p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
